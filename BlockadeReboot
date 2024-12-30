@@ -1,0 +1,361 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Slime X", "Default")
+
+local tab = DrRayLibrary.newTab("Shop System", "ImageIdHere")
+
+tab.newButton("HILL HP", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "FillHP"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Special Titan! (7000)", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "SpecialTitan-Request"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Titan (2200)", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Titan-Request"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Speaker Request", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Speaker-Request"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Change To Cinema (Only Titan Tv Man)", "Click Me!", function()
+    
+game:GetService("ReplicatedStorage"):WaitForChild("ChangeToCinema"):FireServer()
+
+end)
+
+tab.newButton("Armor (You Need Beat Zombie Mode)", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Armor"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Lens", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Lens"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("HeadPhone", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "HeadPhone"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+local tab = DrRayLibrary.newTab("Gun", "ImageIdHere")
+
+tab.newButton("Pulse Rifle (1000)", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Pulse Rifle"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Shot Harpoon Gun (600)", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "Shot Harpoon Gun"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("EPD", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "EPD"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("RocketLaucher", "Click Me!", function()
+    
+local args = {
+    [1] = "Buy",
+    [2] = "RocketLauncher"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ShopSystem"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Spider (Need Scientist Cam Only)", "Click Me!", function()
+    
+local args = {
+    [1] = "Spider"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SkillTrees"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Mech (Need Scientist Cam Only)", "Click Me!", function()
+    
+local args = {
+    [1] = "Gundam"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SkillTrees"):FireServer(unpack(args))
+
+end)
+
+local tab = DrRayLibrary.newTab("ChangeCharacter", "ImageIdHere")
+
+tab.newButton("Double Plunger", "Click Me!", function()
+    
+local args = {
+    [1] = "Double plungers",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Jetpack Double Plunger", "Click Me!", function()
+    
+local args = {
+    [1] = "Jetpacked Double plunger",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Large Clockman", "Click Me!", function()
+    
+local args = {
+    [1] = "Large Clock Man",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Espasa #1", "Click Me!", function()
+    
+local args = {
+    [1] = "Espada #1",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Villan Arc", "Click Me!", function()
+    
+local args = {
+    [1] = "Brown Camera man",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Tv woman", "Click Me!", function()
+    
+local args = {
+    [1] = "TV woman",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Scientists TV Man", "Click Me!", function()
+    
+local args = {
+    [1] = "Scientist TV Man",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Tv man", "Click Me!", function()
+    
+local args = {
+    [1] = "Tv man",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Large Camera man", "Click Me!", function()
+    
+local args = {
+    [1] = "Big Camera man",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Upgraded Strider Camera", "Click Me!", function()
+    
+local args = {
+    [1] = "Upgraded Strider Camera",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+local tab = DrRayLibrary.newTab("Titan Changed", "ImageIdHere")
+
+tab.newButton("Utcm", "Click Me!", function()
+    
+local args = {
+    [1] = "Upgraded Titan Cameraman",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Large Camera man", "Click Me!", function()
+    
+local args = {
+    [1] = "Clock Titan",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ForChangeCharacter"):FireServer(unpack(args))
+
+end)
+
+local tab = DrRayLibrary.newTab("Misc", "ImageIdHere")
+
+tab.newButton("Fly V3", "Click Me!", function()
+    
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FLY-GUI-V3-8031"))()
+end)
+
+tab.newButton("Make 25% easily to respawn", "Click Me!", function()
+    
+local cords = Vector3.new(x,y,z)
+--script
+local plr = game:service("Players").LocalPlayer
+function Time(targetpos)
+    local tme = (targetpos - plr.Character.HumanoidRootPart.Position).Magnitude / plr.Character:FindFirstChildOfClass("Humanoid").WalkSpeed
+    return tme
+end
+
+local tween_s = game:service("TweenService")
+local info = TweenInfo.new(Time(cords),Enum.EasingStyle.Quad)
+function tp(...)
+local tic_k = tick();
+local params = {...};
+local cframe = CFrame.new(params[1],params[2],params[3]);
+local tween,err = pcall(function()
+local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+      tween:Play();
+end)
+   if not tween then return err end
+end
+
+tp(cords)
+
+
+end)
+
+tab.newButton(Fps Show", "Click Me!", function()
+    
+local fpsGui = Instance.new("ScreenGui")
+fpsGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+local fpsLabel = Instance.new("TextLabel")
+fpsLabel.Size = UDim2.new(0, 100, 0, 50)
+fpsLabel.Position = UDim2.new(0, 10, 0, 10)
+fpsLabel.BackgroundColor3 = Color3.fromRGB(0, 102, 0)
+fpsLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+fpsLabel.TextSize = 20
+fpsLabel.Font = Enum.Font.SourceSans
+fpsLabel.Text = "FPS: made by I҉a҉m҉N҉o҉t҉S҉h҉e҉r҉i҉f҉f҉B҉G҉"
+ 
+fpsLabel.Parent = fpsGui
+ 
+local lastUpdate = tick()
+local frameCount = 0
+ 
+game:GetService("RunService").Heartbeat:Connect(function()
+    local now = tick()
+    frameCount = frameCount + 1
+ 
+    if now - lastUpdate >= 1 then
+        local fps = math.floor(frameCount / (now - lastUpdate))
+        fpsLabel.Text = "FPS: " .. tostring(fps)
+ 
+        lastUpdate = now
+        frameCount = 0
+    end
+end)
+ 
+end)
